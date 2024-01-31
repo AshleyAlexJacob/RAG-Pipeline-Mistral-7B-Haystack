@@ -1,0 +1,4 @@
+from haystack.components.retrievers.in_memory import InMemoryBM25Retriever
+from data_ingestion import document_store
+
+retriever = InMemoryBM25Retriever(document_store=document_store)

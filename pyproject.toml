@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "haystack-mistral-rag"
+version = "0.1.0"
+description = ""
+authors = ["AshleyAlexJacob"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.9"
+ollama = "^0.1.5"
+haystack = "^0.42"
+gradio = "^4.16.0"
+datasets = "^2.16.1"
+ollama-haystack = "^0.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
